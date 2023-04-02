@@ -41,7 +41,7 @@
           </a>
         </div>
       {% else %}
-      <a href="" class="inline-block mt-6 text-lg 
+      <a href="{% url 'conversation:new' item.id %}" class="inline-block mt-6 text-lg 
         font-semibold text-white bg-teal-500 
         rounded-xl hover:bg-teal-700 py-3 px-6 duration-300"
       >
