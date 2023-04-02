@@ -9,6 +9,7 @@ urlpatterns = [
     path('', include('core.urls')),
     path('items/', include('item.urls')),
     path('dashboard/', include('dashboard.urls')),
+    path('inbox/', include('conversation.urls')),
     # path('contact/', contact, name='contact'),
     path('admin/', admin.site.urls)
 
